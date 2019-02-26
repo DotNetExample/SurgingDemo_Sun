@@ -1,0 +1,29 @@
+version: '3'
+ 
+services:
+  service.a:
+    image: servicea
+    ports:
+      - "127.0.0.1:9990:9990"
+    network_mode: "bridge"
+    build:
+      context: .
+      dockerfile: Service.A/Dockerfile
+ 
+  service.b:
+    image: serviceb
+    ports:
+      - "127.0.0.1:9991:9991"
+    network_mode: "bridge"
+    build:
+      context: .
+      dockerfile: Service.B/Dockerfile
+ 
+  service.c:
+    image: servicec
+    ports:
+      - "127.0.0.1:9992:9992"
+    network_mode: "bridge"
+    build:
+      context: .
+      dockerfile: Service.C/Dockerfile

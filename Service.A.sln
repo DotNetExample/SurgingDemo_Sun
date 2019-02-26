@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.A", "Service.A\Service.A.csproj", "{CD77132A-0A0D-4A1F-9D82-242F9061943D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.B", "Service.B\Service.B.csproj", "{342562FD-6F41-4218-A8F8-FFAA47A89448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.C", "Service.C\Service.C.csproj", "{A9F836D0-B23B-4761-A6EF-99892172BCC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.A.Service", "Service.A.Service\Service.A.Service.csproj", "{AC473AE5-0EA6-43B7-95B7-B69E2C858BC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.B.Service", "Service.B.Service\Service.B.Service.csproj", "{38160252-0688-4CA5-B704-551D028E6B9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.C.Service", "Service.C.Service\Service.C.Service.csproj", "{8B05F7B2-773E-4830-BC4A-29F801823FEB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BB47789C-064E-4C20-B6E2-E76ABEB62149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD77132A-0A0D-4A1F-9D82-242F9061943D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD77132A-0A0D-4A1F-9D82-242F9061943D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD77132A-0A0D-4A1F-9D82-242F9061943D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD77132A-0A0D-4A1F-9D82-242F9061943D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342562FD-6F41-4218-A8F8-FFAA47A89448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342562FD-6F41-4218-A8F8-FFAA47A89448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342562FD-6F41-4218-A8F8-FFAA47A89448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342562FD-6F41-4218-A8F8-FFAA47A89448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F836D0-B23B-4761-A6EF-99892172BCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F836D0-B23B-4761-A6EF-99892172BCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F836D0-B23B-4761-A6EF-99892172BCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F836D0-B23B-4761-A6EF-99892172BCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC473AE5-0EA6-43B7-95B7-B69E2C858BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC473AE5-0EA6-43B7-95B7-B69E2C858BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC473AE5-0EA6-43B7-95B7-B69E2C858BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC473AE5-0EA6-43B7-95B7-B69E2C858BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38160252-0688-4CA5-B704-551D028E6B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38160252-0688-4CA5-B704-551D028E6B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38160252-0688-4CA5-B704-551D028E6B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38160252-0688-4CA5-B704-551D028E6B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B05F7B2-773E-4830-BC4A-29F801823FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B05F7B2-773E-4830-BC4A-29F801823FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B05F7B2-773E-4830-BC4A-29F801823FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B05F7B2-773E-4830-BC4A-29F801823FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB47789C-064E-4C20-B6E2-E76ABEB62149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB47789C-064E-4C20-B6E2-E76ABEB62149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB47789C-064E-4C20-B6E2-E76ABEB62149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB47789C-064E-4C20-B6E2-E76ABEB62149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88FDECC9-FE87-4513-AED0-7AF903D1C7BD}
+	EndGlobalSection
+EndGlobal

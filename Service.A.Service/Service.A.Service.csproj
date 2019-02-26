@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="surging" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Caching" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Codec.MessagePack" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Consul" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.DotNetty" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.EventBusRabbitMQ" Version="1.0.0" />
+    <PackageReference Include="Surging.Core.Log4net" Version="1.0.0" />
+  </ItemGroup>
+</Project>
